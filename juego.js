@@ -36,7 +36,7 @@ arrbaraja=arrbaraja.sort(()=>{return Math.random()-0.5});
 
 function creaTablero(){
    var id=0;
-    var domTabla;
+    var domTabla="";
     for(i=0;i<3;i++){
         domTabla+='<div class="row">';
         for(j=0;j<4;j++){
